@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+---
 
-## Getting Started
+# 🖼️ Image Analyzer — Next.js + Gemini AI
 
-First, run the development server:
+An **AI-powered image analysis tool** built with **[Next.js](https://nextjs.org/)** and **[Gemini AI](https://deepmind.google/technologies/gemini/)**.
+Upload any image and let Gemini generate a meaningful **description, context, and insights** about it in seconds.
+
+![Preview](./preview.gif) <!-- Replace with actual demo/preview -->
+
+---
+
+## ✨ Features
+
+* 📤 **Upload any image** directly from your device
+* 🤖 **Gemini AI integration** for accurate and context-aware analysis
+* 📝 Generates **detailed descriptions & insights** about uploaded images
+* ⚡ Built with **Next.js** for performance and scalability
+* 🎨 Clean, modern UI with responsive design
+* 🌐 Ready for deployment on **Vercel, Netlify, or any hosting provider**
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend & Backend:** [Next.js](https://nextjs.org/)
+* **AI Model:** [Gemini AI API](https://ai.google.dev/)
+* **Styling:** Tailwind CSS (or CSS Modules)
+* **Deployment:** Vercel / Netlify
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/image-analyzer.git
+cd image-analyzer
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Set up environment variables
+
+Create a `.env.local` file in the project root and add your **Gemini API key**:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+### 4. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to see it in action.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📂 Project Structure
 
-## Learn More
+```
+image-analyzer/
+│── public/              # Static assets
+│── src/
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Next.js pages
+│   ├── utils/           # Gemini API integration
+│   ├── styles/          # Global & module styles
+│── .env.local           # Environment variables
+│── next.config.js       # Next.js config
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contributions are welcome! If you’d like to improve features, fix bugs, or suggest enhancements:
 
-## Deploy on Vercel
+1. Fork the repo
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit changes (`git commit -m 'Add new feature'`)
+4. Push to branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+**Jai**
+
+* Portfolio: \[https://modern-portfolio-eight-ochre.vercel.app/]
+* LinkedIn: \[www.linkedin.com/in/jai-jayathilak]
+* GitHub: \[https://github.com/Jai-jayapalan]
+
+---
